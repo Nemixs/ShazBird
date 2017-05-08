@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nemixs.shazbird.MainActivity">
+
+
+    <Button
+        android:text="Captar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#0174DF"
+        android:layout_marginTop="40dp"
+        android:id="@+id/captar"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:text="Mi Perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#606468"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/perfil"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_toEndOf="@+id/acerca" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="Golondrina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView"
+        android:gravity="left|center"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_marginTop="13dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Loica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:gravity="left|center"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_alignBottom="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_marginTop="12dp"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Siete Colores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:gravity="left|center"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3" />
+
+    <TextView
+        android:text="Sugeridos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/captar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_marginTop="14dp"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Fío-fío"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:gravity="left|center"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView4" />
+
+    <Button
+        android:text="Mis Capturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/historial"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#606468"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:text="Acerca de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#606468"
+        android:id="@+id/acerca"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/captar" />
+
+
+</RelativeLayout>
